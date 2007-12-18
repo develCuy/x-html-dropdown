@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>x-html-dropdown usage example</title>
+<script language="javascript" src="xhd.js"></script>
+</head>
+<body>
+<h1>x-html-dropdown Usage Example</h1>
+<SELECT
+  id="myXHD" NAME="myDropdown"
+  ONCHANGE="XHDrefresh('myXHD');"
+  style="width:150px;display:none"
+  onclick="XHDrefresh('myXHD');"
+  MULTIPLE
+>
+  <option value="1">Item 1</option>
+  <option value="2">Item 2</option>
+  <option value="3">Item 3</option>
+  <option value="4">Item 4</option>
+</SELECT>
+<script type="text/javascript">XHDinit('myXHD')</script>
+<p>Project homepage: http://code.google.com/p/x-html-dropdown/</p>
+</body>
+</html>
